@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch StringInputReciever",
+      "request": "launch",
+      "mainClass": "jp.freestyles.day.five.StringInputReciever",
+      "projectName": "java-zero-to-one-answers_55704e10"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}",
+      "encoding": "Shift_JIS"
+    }
+  ]
+}
