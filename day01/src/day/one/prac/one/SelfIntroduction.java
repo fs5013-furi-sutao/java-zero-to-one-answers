@@ -1,6 +1,6 @@
-package day.one.print;
+package day.one.prac.one;
 
-public class Printer {
+public class SelfIntroduction {
 
     public static void main(String[] args) {
         String myName = "山本一郎";
