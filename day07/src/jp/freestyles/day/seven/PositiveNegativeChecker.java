@@ -1,22 +1,20 @@
-package jp.freestyles.day.six;
+package jp.freestyles.day.seven;
 
 import java.util.Scanner;
 
-public class PositiveZeroNegativeChecker {
+public class PositiveNegativeChecker {
 
     public static void main(String[] args) {
 
         Scanner stdin = new Scanner(System.in);
 
-        System.out.print("整数を入力してください: ");
+        System.out.print("正数または負数を入力してください: ");
         int num = stdin.nextInt();
 
         if (num > 0) {
             System.out.println("入力値は正数です");
-        } else if (num < 0) {
-            System.out.println("入力値は負数です");
         } else {
-            System.out.println("入力値は 0 です");
+            System.out.println("入力値は負数です");
         }
 
         stdin.close();
