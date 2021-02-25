@@ -11,7 +11,15 @@ public class NumericInputReciever {
         System.out.print("数字を入力してください: ");
         int num = stdin.nextInt();
 
-        System.out.format("入力された数字は %d です", num);
+        double rate = 2.0;
+        double resultCalculated = num * rate;
+
+        System.out.format(
+                "入力された数 %d を %.1f 倍すると %.1f です",
+                num,
+                rate,
+                resultCalculated);
+
         stdin.close();
     }
 }
