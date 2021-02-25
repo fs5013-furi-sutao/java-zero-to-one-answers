@@ -1,4 +1,4 @@
-package day.one.prac.one;
+package day.one.prac.a;
 
 public class SelfIntroduction {
 

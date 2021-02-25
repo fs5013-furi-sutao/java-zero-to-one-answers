@@ -1,6 +1,6 @@
-package day.one.prac.two;
+package day.one.prac.b;
 
-public class App {
+public class StringLinePrinter {
     public static void main(String[] args) {
         
         String firstBlock = "AAA";
