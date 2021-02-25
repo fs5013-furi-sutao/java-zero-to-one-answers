@@ -1,4 +1,4 @@
-package day.one.prac.b;
+package jp.freestyles.day.two;
 
 public class StringLinePrinter {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day.one.prac.a;
+package jp.freestyles.day.one;
 
 public class SelfIntroduction {
 
