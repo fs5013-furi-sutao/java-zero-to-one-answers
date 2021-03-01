@@ -1,6 +1,6 @@
 package jp.freestyles.day.eighteen;
 
-public class StaticMethodAdder {
+public class StaticMethodHolder {
 
     public static void main(String[] args) {
 

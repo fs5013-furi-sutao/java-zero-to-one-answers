@@ -6,7 +6,7 @@ Static メソッドを使おう
 
 プログラム実行結果例になるように、次の処理をコーディングしなさい
 
-クラス名は StaticMethodAdder とする
+クラス名は StaticMethodHolder とする
 
 - 変数 a に 57 を代入する
 - 変数 b に 25 を代入する
