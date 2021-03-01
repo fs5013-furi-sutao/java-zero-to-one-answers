@@ -43,5 +43,3 @@ public class Calculator {
         stdin.close();
     }
 }
-
-// 4月延長 
