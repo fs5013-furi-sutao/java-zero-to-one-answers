@@ -1,4 +1,4 @@
-package jp.freestyles.day.six;
+package jp.freestyles.day.seven;
 
 import java.util.Random;
 import java.util.Scanner;

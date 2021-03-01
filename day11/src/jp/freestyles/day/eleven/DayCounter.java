@@ -1,4 +1,4 @@
-package jp.freestyles.day.ten;
+package jp.freestyles.day.eleven;
 
 public class DayCounter {
 

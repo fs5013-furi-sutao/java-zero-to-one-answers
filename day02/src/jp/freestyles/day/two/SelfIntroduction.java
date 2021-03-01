@@ -1,4 +1,4 @@
-package jp.freestyles.day.one;
+package jp.freestyles.day.two;
 
 public class SelfIntroduction {
 

@@ -1,4 +1,4 @@
-package jp.freestyles.day.five;
+package jp.freestyles.day.six;
 
 import java.util.Scanner;
 

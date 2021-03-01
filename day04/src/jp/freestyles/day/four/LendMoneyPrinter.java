@@ -1,4 +1,4 @@
-package jp.freestyles.day.three;
+package jp.freestyles.day.four;
 
 public class LendMoneyPrinter {
     public static void main(String[] args) {
