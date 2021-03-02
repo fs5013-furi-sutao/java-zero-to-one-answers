@@ -2,37 +2,30 @@
 
 コンストラクタを使おう
 
-## 樹齢が正しく設定されるようにする
+## テレビに初期設定をさせる
 
-次の ForestPark を実行すると、以下の実行結果になるように、Tree クラスを修正しなさい
+次の TvUser を実行すると、以下の実行結果になるように、Television クラスを作成しなさい
+
+Television クラスにはコンストラクタを実装すること
+
+Television クラスには、次のフィールドとメソッドを実装すること
+- channelNo: チャンネル番号をあらわすフィールド
+- broadcastStationName: 放送局名をあらわすフィールド
+- showStartOfBroadcasting(): 放送開始を表示するメソッド
+- showEndOfBroadcasting(): 放送終了を表示するメソッド
 
 ```java
 package jp.freestyles.day.twentytwo;
 
-public class ForestPark {
+public class TvUser {
 
     public static void main(String[] args) {
 
-        Tree palmTree = new Tree(56);
+        Television tokaiTv = new Television(1, "東海テレビ");
+        Television cbcTv = new Television(5, "CBCテレビ");
 
-        palmTree.showAge();
-    }
-}
-```
-
-```java
-package jp.freestyles.day.twentytwo;
-
-public class Tree {
-
-    private int age;
-
-    public Tree(int age) {
-        age = age;
-    }
-
-    public void showAge() {
-        System.out.format("樹齢は %d 年です", age);
+        tokaiTv.showEndOfBroadcasting();
+        cbcTv.showEndOfBroadcasting();
     }
 }
 ```
@@ -40,5 +33,8 @@ public class Tree {
 ### 出力結果
 
 ```
-樹齢は 56 年です
+START: 1 チャンネルの 東海テレビ が放送開始します 
+START: 5 チャンネルの CBCテレビ が放送開始します
+END: 1 チャンネルの 東海テレビ が放送終了します
+END: 5 チャンネルの CBCテレビ が放送終了します
 ```
