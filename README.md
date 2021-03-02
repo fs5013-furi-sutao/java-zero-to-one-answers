@@ -77,5 +77,6 @@ Static メソッドで足し算をする
 ### [21 日目](./day21): クラスを作ってみよう
 犬をあらわすクラスを作ってみる
 
+![](./java-zero-to-one-logo.svg)
 
 ![](./zero_to_one.jpg)
