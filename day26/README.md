@@ -4,7 +4,8 @@
 
 ## 2 人の名前を比較する
 
-プログラム実行結果例になるように、次の StringComparator クラスのコメント箇所に追加処理をコーディングしなさい
+プログラム実行結果例になるように、
+次の StringComparator クラスのコメント箇所に追加処理をコーディングしなさい
 
 ```java
 package jp.freestyles.day.twentysix;
