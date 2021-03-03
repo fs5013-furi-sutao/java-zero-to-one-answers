@@ -1,6 +1,6 @@
-package jp.freestyles.day.eleven;
+package jp.freestyles.day.twentynine;
 
-public class DayCounter {
+public class MultiplicateionTable {
 
     public static void main(String[] args) {
 
