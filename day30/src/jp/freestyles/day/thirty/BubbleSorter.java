@@ -1,4 +1,4 @@
-package jp.freestyles.day.twentynine;
+package jp.freestyles.day.thirty;
 
 public class BubbleSorter {
 
